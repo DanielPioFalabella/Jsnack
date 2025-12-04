@@ -3,6 +3,10 @@ const num1 = Number(prompt("inserisci un numero"));
 const num2 = Number(prompt("inserisci un numero"));
 let numero
 
+// li salvo in console
+console.log("il primo numero è", num1);
+console.log("il secondo numero è", num2)
+
 // definisco qual è il maggiore
 if (num1 > num2) {
     numero = num1
@@ -10,6 +14,6 @@ if (num1 > num2) {
     numero = num2
 }
 
-console.log(numero);
+console.log("il numero maggiore è", numero);
 
 
